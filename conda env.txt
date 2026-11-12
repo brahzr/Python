@@ -1,0 +1,14 @@
+Anaconda cloud: https://auth.anaconda.com/ui/login/a5c12bab-074b-4e6b-9b3e-d1f6d656ab9f
+
+To download miniconda: https://www.anaconda.com/download
+
+1- create an environment:
+conda create -n name_env python=version
+2- activate the environment:
+conda activate name_env / conda deactivate name_env
+3-List all environment:
+conda env list
+4- Delete the environment:
+conda env remove -n name_env 
+5- Install requirements:
+pip install -r requirements.txt
